@@ -1,0 +1,56 @@
+::selection {
+  background-color: #00BCD4;
+  color: white;
+}
+
+a {
+  cursor: pointer;
+}
+
+.demo-drawer-header {
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-drawer-header h5 {
+  margin: 0;
+}
+
+.data-cell {
+  text-align: center;
+  color: #888;
+}
+
+.data-cell h3 {
+  color: #888;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 48px;
+}
+
+.data-cell h3 .unit {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.spinner {
+  height: calc(100vh - 72px);
+  justify-items: center;
+  align-items: center;
+}
+
+.low-temp~p {
+  color: #00BCD4;
+}
+
+.hi-temp~p {
+  color: #ff6f57;
+}
+
+X3D,
+x3d {
+  border: none !important;
+}

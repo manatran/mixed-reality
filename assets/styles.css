@@ -1,0 +1,151 @@
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(#2a345b, #7d4b7a, #4d889b, #2a345b);
+}
+
+body {
+  font-family: "Roboto";
+  color: #c7d1ff;
+  background-image: url("./overlay.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./stars.svg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top;
+  min-height: 100vh;
+  padding: 32px 0;
+  box-sizing: border-box;
+}
+
+header img {
+  max-height: 200px;
+}
+
+header h1 {
+  color: white;
+  font-weight: 900;
+  font-family: "Roboto Black";
+  margin-top: 64px;
+  margin-bottom: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.gradient-text {
+  color: #fff;
+  background: -webkit-linear-gradient(-60deg, #458dff, #01e7cf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro {
+  z-index: 100;
+}
+
+.icon {
+  height: 256px;
+  width: 256px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 1px 3px 24px rgba(0, 0, 0, .5);
+}
+
+.imgs {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1080px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.imgs,
+.imgs img {
+  position: absolute;
+  text-align: center;
+}
+
+.planet1 {
+  transform: scale(0.8);
+  opacity: .5;
+  height: 100px;
+  width: 100px;
+  top: 15%;
+  left: 5%;
+}
+
+.planet2 {
+  height: 300px;
+  width: 300px;
+  bottom: 64px;
+  right: -16px;
+  transform: scale(1.3);
+  filter: hue-rotate(140deg);
+}
+
+.showcase {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 64px 0;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 0 32px 0 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c7d1ff;
+  text-decoration: none;
+  transition: .2s;
+  margin-bottom: 64px;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.item img {
+  border-radius: 50%;
+  margin-bottom: 32px;
+  height: 128px;
+  width: 128px;
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, .25);
+}
+
+.item h3 {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+.item p {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}

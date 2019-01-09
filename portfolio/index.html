@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <link rel="icon" href="./../assets/icon.png" />
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+
+<body>
+  <!-- Aframe scene -->
+  <a-scene fog="type: exponential; color: #656A8B; density: 0.0015;">
+    <!-- Assets -->
+    <a-assets>
+      <img id="sky" src="assets/sky2.png" />
+      <img id="profilepic" src="assets/profilepic.jpg" />
+      <img id="button" src="assets/button.png" />
+      <a-asset-item id="scene-planet" src="assets/planet1.glb"></a-asset-item>
+      <a-asset-item id="scene-planet2" src="assets/planet2.glb"></a-asset-item>
+    </a-assets>
+
+    <!-- Sky and Camera -->
+    <a-sky src="#sky" material="fog: false"></a-sky>
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+
+    <!-- Profile pic -->
+    <a-circle open-website="link:https://manatran.github.io" src="#profilepic" radius="50" position="0 100 -225"
+      rotation="0 0 0" side="double" material="fog: false"></a-circle>
+    <a-text value="MANAUS TRANSEZ" side="double" position="0 20 -250" font="roboto" color="#FFF" align="center" width="400"></a-text>
+    <a-text value="Full Stack Developer" side="double" position="0 0 -250" font="roboto" color="#eee" align="center"
+      width="300"></a-text>
+
+    <a-image material="fog:false;" src="#button" side="double" position="0 -40 -250" width="100" height="20"
+      open-website="link:./assets/resume_manaus_transez.pdf"></a-image>
+
+    <!-- Planets -->
+    <a-gltf-model id="planetEntity" gltf-model="#scene-planet" scale="30 30 30" position="300 -70 -200"></a-gltf-model>
+
+    <a-gltf-model id="planetEntity2" gltf-model="#scene-planet2" scale="15 15 15" rotation="40 0 -40" position="-400 200 -300"></a-gltf-model>
+  </a-scene>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

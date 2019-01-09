@@ -1,0 +1,16 @@
+html {
+  background: linear-gradient(#2a345b, #7d4b7a, #4d889b, #2a345b);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./../assets/overlay.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+img {
+  margin: 32px auto;
+  max-width: 1080px;
+}
