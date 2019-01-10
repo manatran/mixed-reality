@@ -2,7 +2,7 @@
 
 ## Exam
 
-This repository contains the work I put into the course Mixed Reality. It contains a simple forecast app made with X3DOM and a proof-of-concept portfolio made with A-Frame. It also features various 3D models I created using Blender.
+This project contains the work I put into the course Mixed Reality, consisting of a simple forecast app made with X3DOM and a proof-of-concept portfolio made with A-Frame. It also features various 3D models I created using Blender.
 
 
 ## Technologies
@@ -20,7 +20,7 @@ Clone the repository
 git clone https://github.com/manatran/mixed_reality.git
 ```
 
-In order to run correctly, please run this project in either a local or remote server.
+In order to run correctly, this project needs to be run on a (local) server.
 
 
 ## Contributors
