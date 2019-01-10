@@ -20,7 +20,7 @@ Clone the repository
 git clone https://github.com/manatran/mixed_reality.git
 ```
 
-In order to run correctly, please run tis project in either a local or remote server.
+In order to run correctly, please run this project in either a local or remote server.
 
 
 ## Contributors
