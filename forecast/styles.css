@@ -54,3 +54,21 @@ X3D,
 x3d {
   border: none !important;
 }
+
+.mdl-layout-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mdl-layout-title a {
+  text-decoration: none;
+}
+
+.mdl-layout-title a img {
+  margin-right: 16px;
+  height: 32px;
+  width: 32px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}

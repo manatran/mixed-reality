@@ -8,10 +8,28 @@
   <title>Portfolio</title>
   <link rel="icon" href="./../assets/icon.png" />
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <style>
+    a {
+      z-index: 100;
+      position: absolute;
+      margin-top: 16px;
+      left: calc(50% - 20px);
+    }
+
+    a img {
+      height: 40px;
+      width: 40px;
+      box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+    }
+  </style>
 </head>
 
 
 <body>
+  <a href="/">
+    <img src="./../assets/icon.png" alt="Icon">
+  </a>
   <!-- Aframe scene -->
   <a-scene fog="type: exponential; color: #656A8B; density: 0.0015;">
     <!-- Assets -->
