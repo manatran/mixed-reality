@@ -11,6 +11,8 @@ body {
   background-repeat: no-repeat;
 }
 img {
-  margin: 32px auto;
-  max-width: 1080px;
+  padding: 0 8px;
+  margin: 16px auto;
+  width: 1080px;
+  max-width: 100%;
 }
